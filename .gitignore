@@ -1,0 +1,20 @@
+# Ignore log files and system files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore vendor or build files (if you use these)
+node_modules/
+vendor/
+dist/
+
+# Ignore WordPress-specific files (if needed)
+wp-config.php
+.htaccess
+
+# Igonore others
+development.txt
+structure.txt

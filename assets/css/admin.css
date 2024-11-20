@@ -1,0 +1,149 @@
+.wp-update-tracker-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+.wp-update-tracker-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.wp-update-tracker-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.wp-update-tracker-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.wp-update-tracker-switch input:checked + .wp-update-tracker-slider {
+  background-color: #007cba;
+}
+
+.wp-update-tracker-switch input:checked + .wp-update-tracker-slider:before {
+  transform: translateX(24px);
+}
+
+.widefat th {
+  text-align: left;
+}
+.tablenav-pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+/* Pagination Styling */
+/* Align pagination to the bottom-left */
+.wp-update-tracker-pagination {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  padding: 0;
+  margin: 1em 0;
+  list-style: none;
+  gap: 5px;
+}
+
+.wp-update-tracker-pagination li {
+  display: inline;
+}
+
+.wp-update-tracker-pagination a,
+.wp-update-tracker-pagination span {
+  color: #007cba;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.wp-update-tracker-pagination a:hover {
+  background: #007cba;
+  color: #fff;
+}
+
+.wp-update-tracker-pagination .current {
+  background: #007cba;
+  color: #fff;
+  border-color: #007cba;
+}
+
+.tablenav .tablenav-pages {
+  float: left !important;
+  margin: 0 0 9px 3px !important;
+}
+
+/* Modernized Table Styling */
+
+/* General Table Layout */
+.widefat.striped {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table Header */
+.widefat.striped thead th {
+  background-color: #f7f7f7;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+/* Table Rows */
+.widefat.striped tbody tr {
+  border-bottom: 1px solid #e3e3e3;
+  transition: background-color 0.3s ease;
+}
+
+.widefat.striped tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Row Cells */
+.widefat.striped tbody td {
+  padding: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Empty State */
+.widefat.striped tbody tr td[colspan] {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
+
+/* Table Footer (if needed) */
+.widefat.striped tfoot td {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  padding: 10px;
+  border-top: 2px solid #e3e3e3;
+}

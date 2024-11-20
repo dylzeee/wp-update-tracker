@@ -1,0 +1,27 @@
+# Copyright (C) 2024 Dylan Jackson
+# This file is distributed under the same license as the WP Update Tracker plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Update Tracker 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-update-tracker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-20T10:33:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: wp-update-tracker\n"
+
+#. Plugin Name of the plugin
+msgid "WP Update Tracker"
+msgstr ""
+
+#. Description of the plugin
+msgid "Tracks updates to WordPress core, plugins, themes, and settings changes. Includes notifications and admin UI."
+msgstr ""
+
+#. Author of the plugin
+msgid "Dylan Jackson"
+msgstr ""
