@@ -60,6 +60,17 @@
 
 ---
 
+## Future Updates
+
+Planned features include:
+
+- Email Notifications:
+- Log Retention:
+- Advanced Reporting:
+- Add More Events To Track
+
+---
+
 ## Contributing
 
 Contributions are welcome! Here's how you can help:
